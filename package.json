@@ -20,7 +20,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "cast": "npx github:bwca/cast --templatesRoot=./templates",
+    "cast:hook": "npm run cast -- --itemType=hook",
+    "cast:component": "npm run cast -- --itemType=component"
   },
   "eslintConfig": {
     "extends": [
@@ -39,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@testing-library/react-hooks": "^7.0.1"
   }
 }
