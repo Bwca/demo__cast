@@ -21,7 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "cast": "npx github:bwca/cast --templatesRoot=./templates",
+    "cast": "npx @merry-solutions/cli",
     "cast:hook": "npm run cast -- --itemType=hook",
     "cast:component": "npm run cast -- --itemType=component"
   },
