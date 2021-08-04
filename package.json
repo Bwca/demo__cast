@@ -22,8 +22,10 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "cast": "npx @merry-solutions/cli",
-    "cast:hook": "npm run cast -- --itemType=hook",
-    "cast:component": "npm run cast -- --itemType=component"
+    "generate:hook": "npm run cast -- --itemType=hook",
+    "g:h": "npm run cast -- --itemType=hook",
+    "generate:component": "npm run cast -- --itemType=component",
+    "g:c": "npm run cast -- --itemType=component"
   },
   "eslintConfig": {
     "extends": [
